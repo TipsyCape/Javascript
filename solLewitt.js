@@ -26,8 +26,10 @@ function draw(){
         line(0, z, windowWidth/2 - z, 0);                       //lines in left triangle
     }
 
-    for(let m = 0; m < windowWidth; m+=25){
-        line(windowWidth, m, windowWidth - m, windowHeight);    //lines in right triangle              
+    for(let m = 0; m < windowHeight; m+=25){
+        line(windowWidth, windowHeight - m, windowWidth/2 + m, windowHeight);    //lines in right triangle              
     }
 
 }
+
+//windowWidth, m, windowWidth - m, windowHeight
