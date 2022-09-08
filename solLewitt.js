@@ -17,12 +17,12 @@ function setup(){
 
 function draw(){
 
-
-    fill(240, 0, 50);
+    
+    fill(244, 113, 116);
     triangle(0, 0, windowWidth/2, 0, 0, windowHeight);                                  //red triangle, on left
-    fill(50, 0, 240)
+    fill(185, 201, 215)
     triangle(windowWidth, windowHeight, windowWidth/2, windowHeight, windowWidth, 0);   //blue triangle, on right
-
+    
     for(let z = 0; z < windowWidth; z+=25){
         line(0, z, windowWidth/2 - z, 0);                       //lines in left triangle
     }
