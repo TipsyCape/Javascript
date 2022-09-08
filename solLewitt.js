@@ -1,8 +1,5 @@
 function setup(){
-    createCanvas(windowWidth, windowHeight);
-}
-
-function draw(){
+    createCanvas(windowWidth, windowHeight); 
     background(0, 0, 0);                                        //black background 
 
 
@@ -16,6 +13,10 @@ function draw(){
     for(let o = 0; o < 1000; o++){
         ellipse(random(width), random(height), 1, 1);           //stars that look like they are moving
     }
+}
+
+function draw(){
+
 
     fill(240, 0, 50);
     triangle(0, 0, windowWidth/2, 0, 0, windowHeight);                                  //red triangle, on left
